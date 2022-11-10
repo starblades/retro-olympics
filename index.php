@@ -1,0 +1,1 @@
+<?php echo file_get_contents("retro-olympics/htmllinks/header.html"); ?>
