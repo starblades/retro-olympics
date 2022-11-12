@@ -1,7 +1,17 @@
 body {
     margin: 0;
-    background: rgb(26, 24, 24);
-    text-decoration-color: white;
     text-align: center;
+    background-color: grey;
+    image-resolution: 42px;
     
+}
+
+h1 {
+    color:blue;
+
+}
+
+h2 {
+    color:gold;
+
 }
