@@ -1,6 +1,49 @@
-header {
-    margin: 0;
+.navigation {
+    background-color: rgb(30, 30, 30);
+    opacity: .75;
+    margin-top: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+
+.logo {
     text-align: center;
-    color:gold;
-    background-color: blue;
+    font-size: 44px;
+    font-family: 'Courier New', Courier, monospace; 
+    opacity: 1;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-color: rgb(17, 33, 255, 0.349);
+    border: 6px;
+    border-color: gold;
+    border-style: groove;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding-left: 6px;
+
+}
+
+li a {
+    display: inline-block;
+    margin-inline: 4px;
+    padding: 6px;
+    font-size: 24px;
+    color: gold;
+    background-color: rgba(17, 33, 255, 0.349);
+    border: 6px;
+    border-color: gold;
+    border-style: groove;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
+
+h3 {
+    color: rgb(255, 240, 40);
 }
